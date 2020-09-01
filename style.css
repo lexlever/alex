@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    border: 1px solid gray;
+}
+img{
+    padding: 30px;
+}
+.results{
+    overflow: hidden;
+    margin-left: 30px;
+}

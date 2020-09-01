@@ -1,0 +1,62 @@
+*,*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.alex{
+    background-color: rgba(179, 174, 174, 0.356);
+}
+.container{
+    width: 600px;
+    height: 660px;
+    background-color: rgba(92, 182, 177, 0.3);
+    margin: 0 350px;
+    border: 3px solid blueviolet;
+    position: absolute;
+}
+
+h3{
+    font-size: 34px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+
+fieldset {
+    border: none;
+}
+legend{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+label{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+input{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 150px;
+    width: 250px;
+}
+
+#button{
+    margin-left: 170px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 15px;
+    color: ghostwhite;
+    background-color: blueviolet;
+    transition: 3s;
+}
+#button:hover{
+    transform: translateY(-5px);
+    background-color: pink;
+}
